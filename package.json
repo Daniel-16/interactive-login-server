@@ -1,0 +1,20 @@
+{
+  "name": "login-page-server",
+  "version": "1.0.0",
+  "description": "Interactive login page server for 200 level students",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Dan-Codes",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "validator": "^13.7.0"
+  }
+}
